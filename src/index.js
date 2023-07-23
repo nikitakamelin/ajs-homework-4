@@ -1,13 +1,13 @@
-import './js/Character';
-import { Bowman } from './js/Bowman';
-import './js/Daemon';
-import './js/Magician';
-import './js/Swordsman';
-import './js/Undead';
-import './js/Zombie';
+import Character from './js/Character';
+import Bowman from './js/Bowman';
+import Daemon from './js/Daemon';
+import Magician from './js/Magician';
+import Swordsman from './js/Swordsman';
+import Undead from './js/Undead';
+import Zombie from './js/Zombie';
 
 console.log('it works');
 
-const bowman = new Bowman('Nokki', 'Zombie');
+const daemon = new Daemon('N1dfdf24', 'Daemon');
 
-console.log(bowman);
+console.log(daemon);

@@ -11,7 +11,7 @@
     },
     "rules": {
 		"no-underscore-dangle": "off",
-		"no-unused-vars": "off",
+		"no-unused-vars": "on",
 		"no-nested-ternary": "off",
 		"no-plusplus": "off",
 		"no-console": "off",   //чтобы не ругалось на console.log

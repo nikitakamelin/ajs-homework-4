@@ -1,7 +1,7 @@
-import { Character } from './Character';
+import Character from './Character';
 
-export class Undead extends Character {
-  constructor(name, type, health, level, attack, defence) {
+export default class Undead extends Character {
+  constructor(name, type) {
     super(name, type);
     this.health = 100;
     this.level = 1;

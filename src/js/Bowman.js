@@ -1,6 +1,6 @@
-import { Character } from './Character';
+import Character from './Character';
 
-export class Bowman extends Character {
+export default class Bowman extends Character {
   constructor(name, type, health, level, attack, defence) {
     super(name, type);
     this.health = 100;

@@ -1,4 +1,4 @@
-export class Character {
+export default class Character {
   constructor(name, type, health, level, attack, defence) {
     this.name = name;
     this.type = type;
@@ -15,7 +15,7 @@ export class Character {
   set name(value) {
     if (value.length < 2 || value.length > 10) {
       throw new Error('Некорректная длина строки');
-      // return;
+      // return;  -- //! в eslint появляется ошибка unreachable code
     }
     this._name = value;
   }
