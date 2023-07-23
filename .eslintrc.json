@@ -10,8 +10,9 @@
         "sourceType": "module"
     },
     "rules": {
+		"no-new": "warn",
 		"no-underscore-dangle": "off",
-		"no-unused-vars": "on",
+		"no-unused-vars": "warn",
 		"no-nested-ternary": "off",
 		"no-plusplus": "off",
 		"no-console": "off",   //чтобы не ругалось на console.log
