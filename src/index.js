@@ -8,7 +8,7 @@ import Zombie from './js/Zombie';
 
 console.log('it works');
 
-const daemon = new Bowman('Nikolay', 'Bowman');
+const daemon = new Daemon('Nikolay');
 
 // console.log(daemon);
 

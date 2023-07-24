@@ -1,7 +1,7 @@
 import Character from '../js/Character';
 
 test('Character levelUp basic test', () => {
-  const character = new Character('Oleg', 'Undead', 90, 1, 50, 50);
+  const character = new Character('Oleg', 'Undead', 50, 50);
   character.levelUp();
 
   const result = {
@@ -16,7 +16,7 @@ test('Character levelUp basic test', () => {
 });
 
 test('Character damage(points) basic test', () => {
-  const character = new Character('Oleg', 'Undead', 100, 1, 50, 50);
+  const character = new Character('Oleg', 'Undead', 50, 50);
   character.damage(10);
 
   const result = {

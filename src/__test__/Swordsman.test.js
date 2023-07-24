@@ -1,7 +1,7 @@
 import Swordsman from '../js/Swordsman';
 
 test('Swordsman test', () => {
-  const swordsman = new Swordsman('Oleg', 'Swordsman');
+  const swordsman = new Swordsman('Oleg');
 
   const result = {
     _name: 'Oleg', //! используется префикс из-за сеттера/геттера

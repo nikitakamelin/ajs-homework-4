@@ -1,7 +1,7 @@
 import Zombie from '../js/Zombie';
 
 test('Zombie test', () => {
-  const zombie = new Zombie('Oleg', 'Zombie');
+  const zombie = new Zombie('Oleg');
 
   const result = {
     _name: 'Oleg', //! используется префикс из-за сеттера/геттера

@@ -1,14 +1,10 @@
 import Character from './Character';
 
 export default class Bowman extends Character {
-  constructor(name, type, health, level, attack, defence) {
-    super(name, type);
-    this.health = 100;
-    this.level = 1;
+  constructor(name) {
+    super(name, 'Bowman');
+
     this.attack = 25;
     this.defence = 25;
   }
 }
-
-// const bowman = new Bowman('Nokki', "Zombie");
-// export default bowman;

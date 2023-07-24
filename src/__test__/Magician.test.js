@@ -1,7 +1,7 @@
 import Magician from '../js/Magician';
 
 test('Magician test', () => {
-  const magician = new Magician('Oleg', 'Magician');
+  const magician = new Magician('Oleg');
 
   const result = {
     _name: 'Oleg', //! используется префикс из-за сеттера/геттера
